@@ -37,7 +37,7 @@ header{
 #heading h1{
 	margin-right: 1rem;
 	padding: 1.5rem;
-	color: #fff;
+	color: #FBE4E2;
 }
 #topnav{
 	padding: 2rem;
@@ -71,5 +71,22 @@ header{
 	left: 45.5%;
 	top: 4%;
 	width: 32.5%;
-
+}
+#howto{
+	width: 100%;
+	margin: 4rem auto;
+}
+.howtoinfo{
+	width: 50%;
+	box-sizing: border-box;
+	padding: 2rem;
+	float: left;
+}
+.howtointro{
+	text-align: center;
+}
+footer{
+	background-color: #EA2C24;
+	text-align: center;
+	padding: 1.2rem;
 }
