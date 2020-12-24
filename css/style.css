@@ -17,6 +17,7 @@ body{
 .float{
 	clear: both;
 }
+/*index.html styles*/
 header{
     background-color: #EA2C24;
     margin-bottom: 0.2rem;
@@ -52,9 +53,25 @@ header{
 }
 #topnav ul li a{
 	text-decoration: none;
-	font-size: 1.6rem;
+	font-size: 1.65rem;
 	color:#000;
 	padding-right: 1.4rem;
+	font-weight: bolder;
+}
+#topnav ul li a:hover{
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: #FBE4E2;
+	padding-right: 1.4rem;
+	border-bottom: 0.2rem solid #fbe4e2;
+	text-align: center;
+	font-weight: bolder;
+}
+.active{
+	color: #FBE4E2;
+	border-bottom: 0.2rem solid #fbe4e2;
+	font-weight: bolder;
+
 }
 #display{
 	background-image: url("../images/bg4.jpg");
