@@ -139,3 +139,48 @@ footer{
 	border-bottom: 0.1rem solid #000;
 	border-collapse: collapse;
 }
+
+
+/*styles for donation events.html*/
+.event{
+	width: 90%;
+	margin: auto;
+	padding: 1rem;
+	border: 0.1rem solid #000;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+}
+.event .event-header{
+	border-bottom: 0.1rem solid #ddd;
+	padding: 1rem;
+}
+.event .event-header h3{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	padding-bottom: 0.3rem;
+}
+.event .event-header ul{
+	list-style: none;
+}
+.event .event-header ul li{
+	display: inline;
+	padding: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+.event .event-poster img{
+	display: block;
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+.event .event-details{
+	text-align: center;
+	border-top: 0.1rem solid #ddd;
+}
+.event .event-details h5{
+	text-align: center;
+	text-decoration: underline;
+	margin: 0.4rem;
+	font-weight: bold;
+}
