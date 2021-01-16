@@ -170,8 +170,8 @@ footer{
 }
 .event .event-poster img{
 	display: block;
-	width: 90%;
-	height: 100%;
+	width: 60%;
+	height: 60vh;
 	margin: auto;
 }
 .event .event-details{
@@ -183,4 +183,71 @@ footer{
 	text-decoration: underline;
 	margin: 0.4rem;
 	font-weight: bold;
+}
+
+
+/*styles for request.html*/
+#request-form{
+     margin: 3rem;
+}
+#request-form legend{
+	font-weight: bolder;
+}
+#request-form fieldset{
+	border-color: #000 !important;
+	border-radius: 0.5rem !important;
+}
+#request-form label{
+	display: block;
+}
+#request-form input, #request-form .select-input{
+	width: 90%;
+	padding: 0.2rem;
+	margin: 0.2rem;
+}
+#request-form h5{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+#request-form .form-container{
+	border: 0.1rem solid #000;
+	border-radius:1rem;
+	margin: 0.5rem;
+	padding: 1rem;
+}
+#request-form .dual{
+	width: 100%;
+	padding: 0.8rem 0.5rem;
+}
+#request-form .dual .dual-input{
+	width: 45%;
+	float: left;
+	box-sizing: border-box;
+}
+#request-form .triple{
+	width: 100%;
+	padding: 0.8rem 0.5rem;
+}
+#request-form .triple .triple-input{
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+}
+#request-form .select label, #request-form .select input{
+	display: inline !important;
+	margin-top: 1.5rem !important;
+	width: auto !important;
+	margin: 0.2rem;
+	padding: 0.2rem;
+
+}
+#request-form input[type="submit"]{
+	width: 50%;
+	margin: auto;
+	border: 0.1rem solid #32CD32;
+	border-radius: 0.8rem;
+	padding: 1rem;
+	text-align: center;
+	background-color: #32CD32;
 }
