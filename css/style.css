@@ -251,3 +251,15 @@ footer{
 	text-align: center;
 	background-color: #32CD32;
 }
+
+/*faq.html styles*/
+.search-form{
+	margin: 2rem;
+	float: right;
+}
+.faq-panels .panel{
+	margin: 1rem;
+	padding: 0.5rem;
+	border:0.1rem solid #000;
+	border-radius: 0 1.5rem;
+}
